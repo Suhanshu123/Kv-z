@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1074631404341",
+    "firebase_url": "https://kviz-b97ed.firebaseio.com",
+    "project_id": "kviz-b97ed",
+    "storage_bucket": "kviz-b97ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074631404341:android:0748d2e8c4de0c0a",
+        "android_client_info": {
+          "package_name": "com.example.suhanshu.kvz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074631404341-09dv1eua6bk71rkicttp676095tpsfrb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.suhanshu.kvz",
+            "certificate_hash": "1e0b23a2f8ad5328c91eae6177c78607099cb071"
+          }
+        },
+        {
+          "client_id": "1074631404341-92r8g9pk2k148mr1g7ob61m8hropi6r3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD84iqYuUjpinPCQJOOXaFpX1YRpEMqAdo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074631404341-92r8g9pk2k148mr1g7ob61m8hropi6r3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

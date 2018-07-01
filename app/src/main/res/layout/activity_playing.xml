@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall1"
+    tools:context=".Playing">
+
+    <ImageView
+        android:id="@+id/question_image"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:foregroundGravity="center" />
+
+    <TextView
+        android:id="@+id/question_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:foregroundGravity="center"
+        android:textSize="25sp"
+        android:padding="10dp"
+        android:text="@string/which_one_is_better_you_or_me"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:id="@+id/group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:id="@+id/txtScore"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/_0"
+                    android:textColor="@color/text"
+                    android:textSize="36sp" />
+
+                <TextView
+                    android:id="@+id/txtTotalQuestion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:text="@string/_1_30"
+                    android:textColor="@color/text"
+                    android:textSize="36sp" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100" />
+
+            <Button
+                android:id="@+id/btnAnswerA"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF8a80"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/answer_a"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+            <Button
+                android:id="@+id/btnAnswerB"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF8a80"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/answer_b"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+            <Button
+                android:id="@+id/btnAnswerC"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF8a80"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/answer_c"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+
+            <Button
+                android:id="@+id/btnAnswerD"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="#FF8a80"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/answer_d"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:theme="@style/MyButton" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
